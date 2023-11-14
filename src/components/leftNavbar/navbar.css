@@ -1,0 +1,33 @@
+.navbar {
+    width: 22.5%;
+    height: 80vh;
+    margin: 20px 2.5%;
+    color: #8D8D8D;
+    background-color: #FFFFFF;
+    font: normal normal 600 16px/19px Gilroy;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.navlist {
+    width: 100%;
+}
+
+.menulist {
+    width: 70%;
+    margin: 30px 15%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menulist>img {
+    margin-right: 10px;
+}
+
+.logout {
+    color: #88C2BB;
+}

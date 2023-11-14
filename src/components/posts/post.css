@@ -1,0 +1,122 @@
+.posts {
+    width: 55%;
+    margin: 20px 2.5%;
+    color: #101010;
+}
+
+.post {
+    width: 90%;
+    height: 80vh;
+    padding: 0 5%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.postProfile {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.postProfile>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.postname {
+    color: #101010;
+    font: normal normal 600 20px/24px Gilroy;
+}
+
+.postId {
+    color: #8D8D8D;
+    font: normal normal medium 14px/16px Gilroy;
+}
+
+.postContent {
+    font: normal normal medium 14px/21px Gilroy;
+}
+
+.postContent>span {
+    color: #FF5E8A;
+    cursor: pointer;
+}
+
+.post>img {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+
+
+.postIntraction {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.postIntractionData {
+    display: flex;
+    margin-right: 40px;
+}
+
+.postIntractionData>img {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.postIntractionData>div {
+    font: normal normal 600 20px/24px Gilroy;
+}
+
+
+
+
+
+
+
+
+.inner {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 220px;
+    margin: 10px;
+}
+
+.outer {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.outer::-webkit-scrollbar {
+    width: 0px;
+}
+
+.inner>img {
+    width: 100%;
+    height: 60%;
+}
+
+.scrollContent {
+    color: #101010;
+    font: normal normal 600 13px/26px Gilroy;
+}
+
+.scrollPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: #101010;
+    font: normal normal 600 24px/25px Barlow;
+}
