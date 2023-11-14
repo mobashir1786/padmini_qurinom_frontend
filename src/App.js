@@ -10,15 +10,7 @@ import Profile from './components/Profile';
 import Setting from './components/Setting';
 
 function App() {
-  // const [side, setSide] = useState("flex")
   let cookie = document.cookie;
-  // const handleSideBar = () => {
-  //   if (side === "flex") {
-  //     setSide("none");
-  //   } else {
-  //     setSide("flex");
-  //   }
-  // }
   return (
     <div className="App">
       <BrowserRouter>

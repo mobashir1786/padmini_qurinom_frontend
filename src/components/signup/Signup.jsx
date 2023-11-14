@@ -22,7 +22,7 @@ const Signup = () => {
                 .then(res => {
                     console.log(res)
                     document.cookie = "token=" + res.data.token + "; expires=" + Date.now() + 1 * 24 * 60 * 60 * 1000;
-                    window.location.href = 'http://localhost:3000'
+                    window.location.href = 'https://padmini-qurinom-frontend.vercel.app/'
                 }).catch(e => {
                     console.log(e);
                 })

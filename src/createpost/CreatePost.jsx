@@ -13,7 +13,7 @@ const CreatePost = () => {
         axios.post("https://padmini-qurinom-backend.vercel.app/create_post", { postContent, postImg })
             .then(res => {
                 console.log(res)
-                window.location.href = 'http://localhost:3000'
+                window.location.href = 'https://padmini-qurinom-frontend.vercel.app/'
             }).catch(e => {
                 console.log(e);
             })
